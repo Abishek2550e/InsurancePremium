@@ -1,0 +1,45 @@
+{
+  "best_model": "Random Forest Regressor",
+  "best_metrics": {
+    "name": "Random Forest Regressor",
+    "r2": 0.8959200998536107,
+    "mae": 2426.8680994534184,
+    "mse": 19125312.796691146,
+    "rmse": 4373.24968378106,
+    "train_seconds": 0.1699984073638916
+  },
+  "all_results": [
+    {
+      "name": "Linear Regression",
+      "r2": 0.8069287081198012,
+      "mae": 4177.045561036324,
+      "mse": 35478020.67523559,
+      "rmse": 5956.342894363587,
+      "train_seconds": 0.0702204704284668
+    },
+    {
+      "name": "Decision Tree Regressor",
+      "r2": 0.8707358887571554,
+      "mae": 2606.3384169288406,
+      "mse": 23753064.30375595,
+      "rmse": 4873.711553195978,
+      "train_seconds": 0.00897073745727539
+    },
+    {
+      "name": "Random Forest Regressor",
+      "r2": 0.8959200998536107,
+      "mae": 2426.8680994534184,
+      "mse": 19125312.796691146,
+      "rmse": 4373.24968378106,
+      "train_seconds": 0.1699984073638916
+    }
+  ],
+  "feature_columns": [
+    "age",
+    "bmi",
+    "children",
+    "gender",
+    "smoker",
+    "region"
+  ]
+}
